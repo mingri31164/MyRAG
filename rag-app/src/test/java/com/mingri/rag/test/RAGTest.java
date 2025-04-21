@@ -1,7 +1,7 @@
 package com.mingri.rag.test;
 
 import com.alibaba.fastjson.JSON;
-import com.mingri.rag.app.Application;
+import com.mingri.rag.Application;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.mingri.rag.app;
+package com.mingri.rag;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.mingri.rag.app.config;
+package com.mingri.rag.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

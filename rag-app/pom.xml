@@ -122,7 +122,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.mingri.rag.app.Application</mainClass>
+                    <mainClass>com.mingri.rag.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

@@ -33,14 +33,14 @@ public class OllamaController implements IAiService {
 
     @RequestMapping(value = "generate", method = RequestMethod.GET)
     @Override
-    public ChatResponse generate(@RequestParam String model, @RequestParam String message) {
+    public ChatResponse generate(@RequestParam("model") String model, @RequestParam("message") String message) {
         return chatClient.call(new Prompt(message, OllamaOptions.create().withModel(model)));
     }
 
 
     @RequestMapping(value = "generate_stream", method = RequestMethod.GET)
     @Override
-    public Flux<ChatResponse> generateStream(@RequestParam String model, @RequestParam String message) {
+    public Flux<ChatResponse> generateStream(@RequestParam("model") String model, @RequestParam("message") String message) {
         return chatClient.stream(new Prompt(message, OllamaOptions.create().withModel(model)));
     }
 

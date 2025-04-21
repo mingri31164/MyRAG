@@ -1,4 +1,4 @@
-package com.mingri.rag.app.config;
+package com.mingri.rag.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
