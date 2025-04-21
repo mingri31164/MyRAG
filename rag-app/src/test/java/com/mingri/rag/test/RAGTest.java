@@ -1,6 +1,7 @@
 package com.mingri.rag.test;
 
 import com.alibaba.fastjson.JSON;
+import com.mingri.rag.app.Application;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -28,7 +29,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes = Application.class)
 public class RAGTest {
 
     @Resource
